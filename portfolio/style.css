@@ -1,0 +1,27 @@
+body {
+    font-family: Arial;
+    background-color: lightgray;
+    margin: 30px;
+}
+
+h1 {
+    color: darkblue;
+}
+
+h2 {
+    color: darkblue;
+    background-color: lightblue;
+    padding: 8px;
+}
+
+p {
+    font-size: 16px;
+}
+
+hr {
+    border: 1px solid gray;
+}
+
+body {
+    line-height: 1.5;
+}
