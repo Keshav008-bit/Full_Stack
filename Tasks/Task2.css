@@ -1,0 +1,107 @@
+/* Element Selector */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333333;
+}
+
+/* Element Selector */
+header {
+    background-color: #2563eb;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    font-size: 40px;
+}
+
+/* ID Selector */
+#about {
+    background-color: rgb(255, 255, 255);
+    padding: 25px;
+    margin: 25px auto;
+    width: 80%;
+    border-radius: 10px;
+}
+
+#about h2 {
+    color: #2563eb;
+}
+
+/* Class Selector */
+.team {
+    background-color: #e0f2fe;
+    padding: 25px;
+    margin: 25px auto;
+    width: 80%;
+    border-radius: 10px;
+}
+
+/* Class Selector */
+.highlight {
+    color: rgb(220, 38, 38);
+    font-weight: bold;
+}
+
+/* Class Selector */
+.movies {
+    background-color: #fff7ed;
+    padding: 25px;
+    margin: 25px auto;
+    width: 80%;
+    border-radius: 10px;
+}
+
+/* Styling ordered list */
+.movies ol {
+    padding-left: 30px;
+}
+
+.movies li {
+    margin: 10px;
+}
+
+/* Pseudo-class */
+.movies li:hover {
+    color: #2563eb;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Class Selector */
+.cities {
+    background-color: rgb(240, 253, 244);
+    padding: 25px;
+    margin: 25px auto;
+    width: 80%;
+    border-radius: 10px;
+}
+
+/* Styling unordered list */
+.cities ul {
+    list-style-type: square;
+    padding-left: 30px;
+}
+
+.cities li {
+    margin: 10px;
+}
+
+/* Pseudo-class */
+.cities li:hover {
+    color: rgb(22, 163, 74);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    background-color: #111827;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
