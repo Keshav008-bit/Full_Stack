@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let age = prompt("enter your age");
+        age = Number(age);
+        if(age>=18){
+            alert("you are eligible to vote");
+            document.write("Age:" + age + "<br>"  );
+            document.write("you are eligible to vote");
+        }
+        else{
+            alert("you are not eligible to vote");
+            document.write("Age:" + age);
+            document.write("you are not eligible to vote");
+        }
+        let result = age >=18
+        ? "eligible to vote"
+        : "not eligible to vote";
+
+        document.write(" <br><br>result using ternary operator:" + result);
+    </script>
+</body>
+</html>
